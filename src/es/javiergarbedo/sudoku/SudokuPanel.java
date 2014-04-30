@@ -66,12 +66,10 @@ public class SudokuPanel extends javax.swing.JPanel {
             }
             //TODO: Pintar los cuadros de las celdas
             //TODO: Pintar los valores  
-            
-    
-        }  
-        
-    }       
-  
+
+
+        }
+    }
 
     /**
      * This method is called from within the constructor to initialize the form.
@@ -131,14 +129,14 @@ public class SudokuPanel extends javax.swing.JPanel {
                     //Obtener el idioma por defecto del sistema (de la máquina virtual Java)
                     locale = Locale.getDefault();
                     //Método que muestra una serie de etiquetas en el idioma seleccionado.
-                   
+
                     //Ahora en Español
-                    locale = new Locale("ES","ES");
-    
+                    locale = new Locale("ES", "ES");
+
                     //Ahora en aleman
-                    locale = new Locale("ES","DE");
-                 
-                    
+                    locale = new Locale("ES", "DE");
+
+
                     JOptionPane.showMessageDialog(this, msgLevelCompleted, "Sudoku", JOptionPane.INFORMATION_MESSAGE);
                 }
             } else if (evt.getKeyCode() == KeyEvent.VK_BACK_SPACE
