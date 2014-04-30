@@ -65,9 +65,13 @@ public class SudokuPanel extends javax.swing.JPanel {
                 g.drawLine(CELL_SIZE * i, 0, CELL_SIZE * i, CELL_SIZE * NUM_ROWS);
             }
             //TODO: Pintar los cuadros de las celdas
-            //TODO: Pintar los valores            
-        }
-    }
+            //TODO: Pintar los valores  
+            
+    
+        }  
+        
+    }       
+  
 
     /**
      * This method is called from within the constructor to initialize the form.
